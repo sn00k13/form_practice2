@@ -20,7 +20,7 @@
 }
 .form-area {
     border: 3px dashed black;
-    height: 95%;
+    height: 100%;
     width: 100%;
     /* background-image: linear-gradient(blue, cyan, pink); */
 }
@@ -34,13 +34,17 @@ form {
     height: 100%;
     width: 100%;
     background-image: linear-gradient(blue, cyan, pink);
-    padding: 10px;
     color: white;
 }
 table{
     width: 100%;
     padding: 5px;
-    height: 95%;
+    height: 80%;
+    border-spacing: 8px;
+}
+textarea {
+    height: 100px;
+    width: 250px;
 }
 #column1 {
     width: 25%;
